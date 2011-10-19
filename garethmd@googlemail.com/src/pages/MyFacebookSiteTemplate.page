@@ -1,0 +1,23 @@
+<apex:page id="page" showHeader="false" >
+	<apex:stylesheet value="{!$Page.MyFacebookCss}" />
+
+	<div id="fbfdc_wrap" >
+		<div class="header" style="padding-top: 30px;">
+			<apex:outputPanel styleClass="headerContent" layout="block" >
+				<apex:insert name="header">
+					<c:MyFacebookSiteHeader />
+				</apex:insert>
+			</apex:outputPanel>
+		</div>
+		<div class="mainBody" id="fbfdc_main" class="clearfix">
+			<div class="bodyContent" style="height: 100%;">
+				<apex:insert name="body" />
+			</div
+		</div>
+	</div>
+	<div id="fbfdc_footer">
+		<apex:insert name="footer">
+			<c:MyFacebookSiteFooter />
+		</apex:insert>
+	</div> 
+</apex:page>

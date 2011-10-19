@@ -1,0 +1,274 @@
+<apex:page contentType="xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<envelope >
+    <header key="05beb20d85f9fb75e09fba1518903c1d2418cf74"/>
+    <settings version="1" body="CRC2009">
+        <setting>
+            <Key>CRC2009-Fuel-BOSGas-kWh-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>0.99600000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>0.99600000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Basic oxygen steel (BOS) gas</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>kWh</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-BlastFurGas-kWh-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>0.99600000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>0.99600000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Blast furnace gas</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>kWh</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-CementIndCoal-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>2373.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>2373.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Cement industry coal</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-CokeOvenGas-kWh-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>0.14600000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>0.14600000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Coke oven gas</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>kWh</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-CommerCoal-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>2577.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>2577.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Commercial coal</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-CollieryMethane-kWh-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>0.18400000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>0.18400000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Colliery methane</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>kWh</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-Lignite-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>1203.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>1203.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Lignite</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-Peat-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>1357.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>1357.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Peat</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-ScrapTyres-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>1669.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>1669.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Scrap Tyres</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-SmokelessFuel-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>2810.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>2810.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Solid Smokeless Fuel</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-SourGas-kWh-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>0.23970000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>0.23970000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Sour Gas</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>kWh</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-Waste-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>275.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>275.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Waste</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-WasteOils-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>3026.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>3026.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Waste Oils</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+        <setting>
+            <Key>CRC2009-Fuel-WasteSolvents-tonne-gross</Key>
+            <Energy_Inverse_Key></Energy_Inverse_Key>
+            <CO2>1613.00000000</CO2>
+            <CH4></CH4>
+            <N2O></N2O>
+            <HFCs></HFCs>
+            <PFCs></PFCs>
+            <SF6></SF6>
+            <Total_GHG>1613.00000000</Total_GHG>
+            <EF_Body>CRC2009</EF_Body>
+            <Type>Fuel</Type>
+            <SubType>Waste Solvents</SubType>
+            <Subtype_2>Gross</Subtype_2>
+            <Subtype_3></Subtype_3>
+            <Scope>Scope 1</Scope>
+            <Unit>tonne</Unit>
+            <Revision>1</Revision>
+        </setting>
+    </settings>
+    </envelope>
+</apex:page>

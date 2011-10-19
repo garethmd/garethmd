@@ -1,0 +1,30 @@
+<apex:component id="loginComponent">
+<form id="loginForm" forceSSL="true" name="login" method="post" onsubmit="handleLogin();" action="https://login.salesforce.com/" target="_top">
+            <input name="un" value="" type="hidden" />
+            <input name="width" value="" type="hidden" />
+            <input name="height" value="" type="hidden" />
+            <input name="hasRememberUn" value="true" type="hidden" />
+            <input name="local" value="" type="hidden" />
+            <input name="startURL" value="" type="hidden" />
+            <input name="loginURL" value="" type="hidden" />
+            <input name="loginType" value="" type="hidden" />
+            <input name="useSecure" value="true" type="hidden" />
+            <input name="lt" value="standard" type="hidden" />
+            <input name="qs" value="" type="hidden" />
+            <input name="locale" value="uk" type="hidden" />
+            <input name="oauth_token" value="" type="hidden" />
+            <input name="oauth_callback" value="" type="hidden" />
+            
+            <apex:outputPanel layout="block">
+     			 <apex:pageMessages id="error"/>
+    			 <apex:panelGrid columns="2" style="margin-top:1em;">
+					   <apex:outputLabel value="{!$Label.site.username}" for="username"/>
+					 	<input name="username" id="username" value="" type="text" />
+					        
+						<apex:outputLabel value="{!$Label.site.password}" for="pw"/>
+						<input name="pw" id="pw" value="" type="password" />
+						<input type="submit" value="Login" />
+		      	</apex:panelGrid> 
+		    </apex:outputPanel>
+  </form>              
+</apex:component>

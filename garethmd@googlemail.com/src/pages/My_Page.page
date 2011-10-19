@@ -1,0 +1,51 @@
+<apex:page controller="My_Controller" showHeader="true" > 
+    <h1>{!$User.Email}, {!$Site.Name}, {!$User.Id} </h1>     
+
+            <apex:form >
+                <c:FacebookConnect myController="{!pageController}"
+                    autoCheckConnection="yes"
+                    loginMessage="You can now use Facebook to login to this site!"
+                    loginFooterMessage="You can use this area to provide some fine print for you use if you so choose." />
+                     
+                    <hr />
+                    <apex:outputText value="Mes essais : " style="font-size: 12pt" />
+                    <apex:outputText value=" Current User's Facebook Id: " />
+                    <apex:outputText value="{!facebookUserId}" />
+                    <apex:outputText value=" Facebook API key: " />
+                    <apex:outputText value="{!facebookAPIKey}" />
+                    <br />
+
+                    <apex:pageBlock >
+                        <apex:pageBlockSection title="FACEBOOK : my Friends ">
+                            <apex:dataTable value="{!MyFriends}" var="f" styleClass="list">
+                                <apex:column >
+                                    <apex:facet name="header">Name</apex:facet>
+                                    <apex:outputText value="{!f.name}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">Uses our App ?</apex:facet>
+                                    <apex:outputText value="{!f.is_app_user}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">Locale</apex:facet>
+                                    <apex:outputText value="{!f.locale}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">Activities</apex:facet>
+                                    <apex:outputText value="{!f.activities}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">City</apex:facet>
+                                    <apex:outputText value="{!f.hometown_location.city}"/>
+                                </apex:column>
+                                <apex:column >
+                                    <apex:facet name="header">Status</apex:facet>
+                                    <apex:outputText value="{!f.status.message}"/>
+                                </apex:column>
+                            </apex:dataTable>
+                        </apex:pageBlockSection>
+                    </apex:pageBlock>
+
+            </apex:form>
+
+</apex:page>

@@ -1,0 +1,15 @@
+<apex:page sidebar="false" showHeader="false">
+<head><title>cosine - mystore mobile</title>
+<meta content="Zinadoo, Business, Mobile Site" name="keywords"/>
+<meta content="business site" name="description"/>
+</head>
+<body bgcolor="#FFFFFF">
+<p align="left"><br></p><p align="center"><img src="/content/common/images/business.jpg" width="122" height="34" alt="[img]"></p>
+<p align="left"><font face="arial">Welcome to your Business Mobile Website! 
+<br>1.    </font><font face="Arial"> </font><a accesskey="null" href="Tasks.xml">Task 1 </a>
+<br><font face="arial">2. </font><a accesskey="null" href="stores.xml">Task 2 </a>
+<br>4.</font><a accesskey="3" href="ContactUs.xml">Task 3 </a>
+<br><font face="arial">5.  </font><a accesskey="4" href="EmailUs.xml">Task 4</a></p> <hr color="#000000" /><p align="center">
+<a accesskey="7" href="http://zinadoo.mobi/">(7)zinadoo</a> <a accesskey="9" href="homepage.xml">(9)home</a></p>
+</body>
+</apex:page>
