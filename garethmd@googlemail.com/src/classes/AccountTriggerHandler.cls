@@ -25,8 +25,8 @@ private static set<id> remove = new set<id>();
 	
 	
 	public void OnBeforeInsert(Account[] newAccounts){
-		if(isActive()){
-		}
+		//if(isActive()){
+		//}
 	}
 	
 	
